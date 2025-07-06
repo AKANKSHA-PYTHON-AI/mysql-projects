@@ -23,6 +23,7 @@ cursor.execute('SELECT ID,NAME,CLASS,MARKS,GRADE FROM STUDENTS')
 row = cursor.fetchall()
 
 for i in row:
+    print(i)
     print('ID = ',i[0])
     print('NAME = ',i[1])
     print('CLASS = ',i[2])
